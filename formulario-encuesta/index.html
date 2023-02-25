@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulario de encuesta</title>
+</head>
+<body>
+    <h1 id="title">Formulario de encuesta</h1>
+    <p id="description">Prueba de formulario de encuesta</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" required placeholder="Your name">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" required placeholder="Your email">
+        <label for="number" id="number-label">Age</label>
+        <input type="number" name="number" id="number" required placeholder="Your age" min="1" max="100">
+        <label for="dropdown" id="dropdown-label">Dropdown</label>
+        <select name="dropdown" id="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+        </select>
+        <label for="radio-buttons" id="radio-buttons-label">Radio buttons</label>
+        <input type="radio" name="radio-buttons" id="radio-buttons" value="option1"> Option 1
+        <input type="radio" name="radio-buttons" id="radio-buttons" value="option2"> Option 2
+        <label for="checkboxes" id="checkboxes-label">Checkboxes</label>
+        <input type="checkbox" name="checkboxes" id="checkboxes" value="option1"> Option 1
+        <input type="checkbox" name="checkboxes" id="checkboxes" value="option2"> Option 2
+        <label for="textarea" id="textarea-label">Message</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
