@@ -10,6 +10,8 @@
 
 Se certifica que Mariano ha completado exitosamente la Certificación de Desarrollador [Responsive Web Design](https://www.freecodecamp.org/espanol/certification/fcc61620698-b894-44e0-82ba-4bae050f227b/responsive-web-design) de freeCodeCamp.org, que representa aproximadamente 300 horas de trabajo de curso.
 
+![](./certification.jpg)
+
 ## Agradecimiento
 
 Agradezco a [freeCodeCamp.org](https://www.freecodecamp.org/espanol/) por brindar este curso gratuito y de calidad.
